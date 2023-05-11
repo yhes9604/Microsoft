@@ -1,5 +1,8 @@
 # Microsoft 購物網站
 
+## Links
+網頁預覽： [DEMO](https://yhes9604.github.io/Microsoft/#/).
+
 ## 使用技術
 * 使用 Vue.js / Vue Vite 架設，Vue-Router 管理路由
 * 使用 Vuex 管理資料
