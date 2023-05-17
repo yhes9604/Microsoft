@@ -2,7 +2,7 @@
 
 ## DEMO
 網頁預覽： [DEMO](https://yhes9604.github.io/Microsoft/#/)
-![This is a alt text.](https://i.imgur.com/JLw2NPx.jpg =200x300)
+![This is a alt text.](https://i.imgur.com/JLw2NPx.jpg)
 
 ## 使用技術
 * 使用 Vue.js / Vue Vite 架設，Vue-Router 管理路由
