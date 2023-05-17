@@ -2,7 +2,6 @@
 
 ## DEMO
 網頁預覽： [DEMO](https://yhes9604.github.io/Microsoft/#/)
-![This is a alt text.](https://i.imgur.com/JLw2NPx.jpg)
 
 ## 使用技術
 * 使用 Vue.js / Vue Vite 架設，Vue-Router 管理路由
@@ -15,7 +14,9 @@
 
 ### 前台
 * 首頁切版
+![This is a alt text.](https://i.imgur.com/JLw2NPx.jpg)
 * 使用者在購物頁面，可以把商品加入購物車
+![This is a alt text.](https://i.imgur.com/USfOKU9.png)
 * 使用者在購物頁面，可以篩選商品
 * 使用者可以進行註冊/登入/登出/忘記密碼
 * 使用者在會員中心，可以查看購物清單
