@@ -59,7 +59,7 @@
     </div>
   </div>
   <nav id="nav_container">
-    <p>{{ nav_name }}</p>
+    <p class="nav_name">{{ nav_name }}</p>
     <div class="nav_total">
       <a href="">概要</a>
       <a href="">技術規格</a>
@@ -161,11 +161,15 @@ export default {
   .pic_img img {
     width: 100%;
   }
-
+  .nav_name {
+    margin: auto;
+    font-size: 20px;
+  }
   .nav_total a {
     margin-left: 10px;
     letter-spacing: 3px;
     font-size: 10px;
+    display: none;
   }
   #nav_container {
     width: 100%;
@@ -179,6 +183,24 @@ export default {
     position: sticky;
     box-shadow: 0 -1px #ffffff;
     margin-bottom: 10px;
+  }
+  .container1 {
+    display: flex;
+    background-color: #f5f5f5;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+
+  .pic_left {
+    width: 100%;
+    margin: 20px;
+  }
+  .pic_right {
+    width: 100%;
+  }
+  .pic_name {
+    font-size: 22px;
   }
 }
 @media (min-width: 700px) {
@@ -264,24 +286,25 @@ export default {
   .pic_img img {
     width: 100%;
   }
-}
-.container1 {
-  display: flex;
-  flex: 1 1;
-  background-color: #f5f5f5;
-  width: 100%;
-  margin: auto;
-  flex-wrap: wrap;
+  .container1 {
+    display: flex;
+    flex: 1 1;
+    background-color: #f5f5f5;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+
+  .pic_left {
+    position: relative;
+    width: 50%;
+  }
+  .pic_right {
+    position: relative;
+    width: 50%;
+  }
 }
 
-.pic_left {
-  position: relative;
-  width: 50%;
-}
-.pic_right {
-  position: relative;
-  width: 50%;
-}
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: #0a0a0a;

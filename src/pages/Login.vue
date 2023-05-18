@@ -103,7 +103,7 @@ export default {
   }
   .btn {
     display: inline-block;
-    width: 40% !important;
+    width: 55% !important;
   }
 }
 @media (min-width: 700px) {

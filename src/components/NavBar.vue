@@ -15,6 +15,7 @@
         <li><router-link to="/shop">商品頁面</router-link></li>
         <li><router-link to="/login">會員中心</router-link></li>
       </ul>
+
       <div class="right-menu">
         <div>
           <router-link to="/login" id="user">
@@ -246,11 +247,17 @@ export default {
   height: 60px;
   padding: 20px 0;
   font-size: 13px;
+  box-shadow: 0px 2px 0px 0px rgba(214, 213, 213, 0.2);
+  margin-bottom: 10px;
 }
 .logo {
   width: 70%;
 }
 .main-menu {
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
   display: flex;
 }
 .main-nav ul li {
