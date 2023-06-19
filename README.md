@@ -1,7 +1,7 @@
 # Microsoft 購物網站
 
 ## DEMO
-網頁預覽： [DEMO](https://mic2-d63ae.web.app/#/)
+網頁預覽： [DEMO](https://mic2-d63ae.firebaseapp.com/#/)
 
 ## 使用技術
 * 使用 Vue.js / Vue Vite 架設，Vue-Router 管理路由
