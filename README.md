@@ -1,7 +1,7 @@
 # Microsoft 購物網站
 
 ## DEMO
-網頁預覽： [DEMO](https://yhes9604.github.io/Microsoft/#/)
+網頁預覽： [DEMO](https://mic2-d63ae.web.app/#/)
 
 ## 使用技術
 * 使用 Vue.js / Vue Vite 架設，Vue-Router 管理路由
